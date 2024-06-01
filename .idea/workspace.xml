@@ -4,33 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : Class (클래스)">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-basic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/MovieReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/MovieReviewMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/MovieReviewMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/ProductOrderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/BigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Method2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain3.java" afterDir="false" />
+    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : Reference (기본형 변수 / 참조형 변수)">
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ValueData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ValueDataMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ValueObjectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/AccountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/RectangleOopMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,19 +69,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oop1" />
       <recent name="ref.ex" />
       <recent name="ref" />
       <recent name="class1.ex" />
       <recent name="class1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductOrderMain3">
-    <configuration name="NullMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.NullMain2" />
+  <component name="RunManager" selected="Application.AccountMain">
+    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.ex.AccountMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.*" />
+          <option name="PATTERN" value="oop1.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.NullMain3" />
+    <configuration name="MusicPlayerMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain4" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.*" />
+          <option name="PATTERN" value="oop1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.NullMain4" />
+    <configuration name="RectangleOopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.ex.RectangleOopMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.*" />
+          <option name="PATTERN" value="oop1.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrderMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain2" />
+    <configuration name="ValueDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.ValueDataMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.ex.*" />
+          <option name="PATTERN" value="oop1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrderMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain3" />
+    <configuration name="ValueObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.ValueObjectMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.ex.*" />
+          <option name="PATTERN" value="oop1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductOrderMain3" />
-        <item itemvalue="Application.ProductOrderMain2" />
-        <item itemvalue="Application.NullMain4" />
-        <item itemvalue="Application.NullMain3" />
-        <item itemvalue="Application.NullMain2" />
+        <item itemvalue="Application.AccountMain" />
+        <item itemvalue="Application.RectangleOopMain" />
+        <item itemvalue="Application.MusicPlayerMain4" />
+        <item itemvalue="Application.ValueObjectMain" />
+        <item itemvalue="Application.ValueDataMain" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +165,7 @@
       <workItem from="1716854028602" duration="8000" />
       <workItem from="1717078309965" duration="3326000" />
       <workItem from="1717222991236" duration="8649000" />
-      <workItem from="1717253100327" duration="1122000" />
+      <workItem from="1717253100327" duration="5705000" />
     </task>
     <task id="LOCAL-00001" summary="Feature : First commit">
       <option name="closed" value="true" />
@@ -204,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717083046691</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feature : Class (클래스) 문제풀이">
+      <option name="closed" value="true" />
+      <created>1717254436673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717254436673</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feature : Reference (기본형 변수 / 참조형 변수)">
+      <option name="closed" value="true" />
+      <created>1717254461866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717254461866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feature : First commit" />
     <MESSAGE value="Feature : Class (클래스)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature : Class (클래스)" />
+    <MESSAGE value="Feature : Class (클래스) 문제풀이" />
+    <MESSAGE value="Feature : Reference (기본형 변수 / 참조형 변수)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature : Reference (기본형 변수 / 참조형 변수)" />
   </component>
 </project>
