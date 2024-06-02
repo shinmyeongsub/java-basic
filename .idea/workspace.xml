@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : 생성자 (Constructor)">
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/a/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/a/User2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/b/User.java" afterDir="false" />
+    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : 패키지 (Package)">
+      <change afterPath="$PROJECT_DIR$/src/access/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/BankAccountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/Speaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/SpeakerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/AccessData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/AccessInnerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClassInnerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/AccessOuterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/PublicClassOuterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/CounterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/MaxCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,13 +79,13 @@
       <recent name="ref.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PackageMain2">
-    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
+  <component name="RunManager" selected="Application.ShoppingCartMain">
+    <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="construct.ex.*" />
+          <option name="PATTERN" value="access.a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.ConstructMain2" />
+    <configuration name="AccessOuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.b.AccessOuterMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="construct.*" />
+          <option name="PATTERN" value="access.b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodInitMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.MethodInitMain3" />
+    <configuration name="CounterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.ex.CounterMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="construct.*" />
+          <option name="PATTERN" value="access.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack.PackageMain1" />
+    <configuration name="ShoppingCartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.ex.ShoppingCartMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pack.*" />
+          <option name="PATTERN" value="access.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack.PackageMain2" />
+    <configuration name="SpeakerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.SpeakerMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pack.*" />
+          <option name="PATTERN" value="access.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PackageMain2" />
-        <item itemvalue="Application.PackageMain1" />
-        <item itemvalue="Application.BookMain" />
-        <item itemvalue="Application.ConstructMain2" />
-        <item itemvalue="Application.MethodInitMain3" />
+        <item itemvalue="Application.ShoppingCartMain" />
+        <item itemvalue="Application.CounterMain" />
+        <item itemvalue="Application.AccessOuterMain" />
+        <item itemvalue="Application.AccessInnerMain" />
+        <item itemvalue="Application.SpeakerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +169,7 @@
       <workItem from="1717078309965" duration="3326000" />
       <workItem from="1717222991236" duration="8649000" />
       <workItem from="1717253100327" duration="5835000" />
-      <workItem from="1717300438274" duration="7519000" />
+      <workItem from="1717300438274" duration="15734000" />
     </task>
     <task id="LOCAL-00001" summary="Feature : First commit">
       <option name="closed" value="true" />
@@ -226,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717308663826</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feature : 패키지 (Package)">
+      <option name="closed" value="true" />
+      <created>1717312809943</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717312809943</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +259,7 @@
     <MESSAGE value="Feature : Reference (기본형 변수 / 참조형 변수)" />
     <MESSAGE value="Feature : 객체 지향 프로그래밍 (OOP)" />
     <MESSAGE value="Feature : 생성자 (Constructor)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature : 생성자 (Constructor)" />
+    <MESSAGE value="Feature : 패키지 (Package)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature : 패키지 (Package)" />
   </component>
 </project>
