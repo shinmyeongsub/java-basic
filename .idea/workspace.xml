@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : 상속 (extend)">
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/basic/PolyMain.java" afterDir="false" />
+    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : 다형성1 (Poly)">
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/OverridingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       <recent name="oop1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CastingMain4">
+  <component name="RunManager" selected="Application.OverridingMain">
     <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain1" />
       <module name="java-basic" />
@@ -105,6 +103,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CastingMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain5" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.overriding.OverridingMain" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.overriding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.basic.PolyMain" />
       <module name="java-basic" />
@@ -118,39 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.ex.ShopMain" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extends1.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Super2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.super2.Super2Main" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extends1.super2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverridingMain" />
+        <item itemvalue="Application.CastingMain5" />
         <item itemvalue="Application.CastingMain4" />
         <item itemvalue="Application.CastingMain1" />
         <item itemvalue="Application.PolyMain" />
-        <item itemvalue="Application.ShopMain" />
-        <item itemvalue="Application.Super2Main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,8 @@
       <workItem from="1717300438274" duration="25863000" />
       <workItem from="1717373610655" duration="1637000" />
       <workItem from="1717424494521" duration="4419000" />
-      <workItem from="1717458943310" duration="3113000" />
+      <workItem from="1717458943310" duration="3163000" />
+      <workItem from="1717506344582" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="Feature : First commit">
       <option name="closed" value="true" />
@@ -269,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717428852148</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Feature : 다형성1 (Poly)">
+      <option name="closed" value="true" />
+      <created>1717462105767</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717462105767</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +305,7 @@
     <MESSAGE value="Feature : 자바 메모리 구조와 static" />
     <MESSAGE value="Feature : 상수 (final)" />
     <MESSAGE value="Feature : 상속 (extend)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature : 상속 (extend)" />
+    <MESSAGE value="Feature : 다형성1 (Poly)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature : 다형성1 (Poly)" />
   </component>
 </project>
