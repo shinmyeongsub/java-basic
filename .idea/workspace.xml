@@ -4,28 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : 다형성2 (Poly)">
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/AnimalSoundMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Caw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/AnimalPolyMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/AnimalPolyMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Caw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/AbstractMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/Caw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/AbstractMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/Caw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/Dog.java" afterDir="false" />
+    <list default="true" id="6a2c0289-c34d-4b76-8f27-27c85bf0fb26" name="Changes" comment="Feature : 다형성3 (Poly)">
+      <change afterPath="$PROJECT_DIR$/src/poly/diamond/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/diamond/DiamondMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/diamond/InterfaceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/diamond/InterfaceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex5/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex5/Caw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex5/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex5/InterfaceAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex5/InterfaceAnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex6/AbstractAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex6/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex6/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex6/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex6/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex6/SoundFlyMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,27 +50,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Workspace/java-basic/src/poly/ex4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Workspace/java-basic/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "copyright.filetypes.JAVA",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/java-basic/src/poly/ex4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Workspace/java-basic/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.JAVA&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="static2.ex" />
@@ -87,14 +82,14 @@
       <recent name="C:\Workspace\java-basic\src\extends1\ex3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poly.diamond" />
       <recent name="poly.ex3" />
       <recent name="poly.ex2" />
       <recent name="poly.ex1" />
       <recent name="static2" />
-      <recent name="pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.poly.ex4.AbstractMain">
+  <component name="RunManager" selected="Application.SoundFlyMain">
     <configuration name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poly.ex3.AbstractMain" />
       <module name="java-basic" />
@@ -108,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalPolyMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex2.AnimalPolyMain1" />
+    <configuration name="DiamondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.diamond.DiamondMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex2.*" />
+          <option name="PATTERN" value="poly.diamond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalPolyMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex2.AnimalPolyMain2" />
+    <configuration name="InterfaceAnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.ex5.InterfaceAnimalMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex2.*" />
+          <option name="PATTERN" value="poly.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.overriding.OverridingMain" />
+    <configuration name="SoundFlyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.ex6.SoundFlyMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.overriding.*" />
+          <option name="PATTERN" value="poly.ex6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SoundFlyMain" />
+        <item itemvalue="Application.DiamondMain" />
+        <item itemvalue="Application.InterfaceAnimalMain" />
         <item itemvalue="Application.poly.ex4.AbstractMain" />
         <item itemvalue="Application.AbstractMain" />
-        <item itemvalue="Application.AnimalPolyMain2" />
-        <item itemvalue="Application.AnimalPolyMain1" />
-        <item itemvalue="Application.OverridingMain" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +183,8 @@
       <workItem from="1717373610655" duration="1637000" />
       <workItem from="1717424494521" duration="4419000" />
       <workItem from="1717458943310" duration="3163000" />
-      <workItem from="1717506344582" duration="6140000" />
+      <workItem from="1717506344582" duration="6153000" />
+      <workItem from="1717542982337" duration="2699000" />
     </task>
     <task id="LOCAL-00001" summary="Feature : First commit">
       <option name="closed" value="true" />
@@ -302,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717508179422</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Feature : 다형성3 (Poly)">
+      <option name="closed" value="true" />
+      <created>1717512535839</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717512535839</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +337,7 @@
     <MESSAGE value="Feature : 상속 (extend)" />
     <MESSAGE value="Feature : 다형성1 (Poly)" />
     <MESSAGE value="Feature : 다형성2 (Poly)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature : 다형성2 (Poly)" />
+    <MESSAGE value="Feature : 다형성3 (Poly)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature : 다형성3 (Poly)" />
   </component>
 </project>
